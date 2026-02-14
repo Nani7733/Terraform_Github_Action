@@ -10,10 +10,10 @@ terraform {
 
   cloud {
 
-    organization = "Terraform_Githud_Actions"
+    organization = "Terraform_Githud_Action"
 
     workspaces {
-      name = "Terraform_GitHub_Actions"
+      name = "Github_Action"
     }
   }
 }
