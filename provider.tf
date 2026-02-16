@@ -8,14 +8,14 @@ terraform {
     }
   }
 
-  cloud { 
-    
-    organization = "Terraform_Githud_Action" 
+  cloud {
 
-    workspaces { 
-      name = "Githud_Action" 
-    } 
-  } 
+    organization = "Terraform_Githud_Action"
+
+    workspaces {
+      name = "Githud_Action"
+    }
+  }
 }
 
 provider "aws" {
